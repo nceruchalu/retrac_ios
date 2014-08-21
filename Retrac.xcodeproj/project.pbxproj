@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403B5E4C198D59B200754EC1 /* RTCPlaceDirectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B5E4B198D59B200754EC1 /* RTCPlaceDirectionsViewController.m */; };
+		403B5E4F198D6C3700754EC1 /* RTCRouteStepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B5E4E198D6C3700754EC1 /* RTCRouteStepTableViewCell.m */; };
+		405D3320198A15A600357418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D331F198A15A600357418 /* Foundation.framework */; };
+		405D3322198A15A600357418 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D3321198A15A600357418 /* CoreGraphics.framework */; };
+		405D3324198A15A600357418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D3323198A15A600357418 /* UIKit.framework */; };
+		405D332A198A15A600357418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 405D3328198A15A600357418 /* InfoPlist.strings */; };
+		405D332C198A15A600357418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405D332B198A15A600357418 /* main.m */; };
+		405D3330198A15A600357418 /* RTCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 405D332F198A15A600357418 /* RTCAppDelegate.m */; };
+		405D3333198A15A600357418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405D3331198A15A600357418 /* Main.storyboard */; };
+		405D3338198A15A600357418 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405D3337198A15A600357418 /* Images.xcassets */; };
+		405D333F198A15A600357418 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D333E198A15A600357418 /* XCTest.framework */; };
+		405D3340198A15A600357418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D331F198A15A600357418 /* Foundation.framework */; };
+		405D3341198A15A600357418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405D3323198A15A600357418 /* UIKit.framework */; };
+		405D3349198A15A600357418 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 405D3347198A15A600357418 /* InfoPlist.strings */; };
+		405D334B198A15A600357418 /* RetracTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405D334A198A15A600357418 /* RetracTests.m */; };
+		406E7295198C926F00629B59 /* RTCPlacesCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 406E7294198C926F00629B59 /* RTCPlacesCDTVC.m */; };
+		406E7298198C92D400629B59 /* RTCAddPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406E7297198C92D400629B59 /* RTCAddPlaceViewController.m */; };
+		406E729B198CA32B00629B59 /* RTCPlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 406E729A198CA32B00629B59 /* RTCPlaceTableViewCell.m */; };
+		407C061F198D9F7800A47E37 /* RTCPlace+MKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 407C061E198D9F7800A47E37 /* RTCPlace+MKAnnotation.m */; };
+		407C0629198DBBEF00A47E37 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407C0628198DBBEF00A47E37 /* CoreLocation.framework */; };
+		407C062B198DBBFA00A47E37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407C062A198DBBFA00A47E37 /* QuartzCore.framework */; };
+		407C0635198DCA8200A47E37 /* 1540 Maurice Lane, San Jose.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 407C0633198DCA8200A47E37 /* 1540 Maurice Lane, San Jose.gpx */; };
+		407C0636198DCA8200A47E37 /* Valley Fair Mall, San Jose.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 407C0634198DCA8200A47E37 /* Valley Fair Mall, San Jose.gpx */; };
+		407C0638198DF53D00A47E37 /* Cinemark Shoreline, Mountain View, CA.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 407C0637198DF53D00A47E37 /* Cinemark Shoreline, Mountain View, CA.gpx */; };
+		407C063F198DFEB800A47E37 /* RTCPlaceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 407C063E198DFEB800A47E37 /* RTCPlaceDetailsViewController.m */; };
+		4088BD50198EA68F003C5A7A /* RTCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088BD4F198EA68F003C5A7A /* RTCLocationManager.m */; };
+		40D31469198E155B00A48C8F /* RTCAboutTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D31468198E155B00A48C8F /* RTCAboutTVC.m */; };
+		40D3146B198E189A00A48C8F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D3146A198E189A00A48C8F /* MessageUI.framework */; };
+		40DF1DEC1990709200AA5A53 /* RTCUserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DF1DEB1990709200AA5A53 /* RTCUserLocationViewController.m */; };
+		40DF1DF01990761600AA5A53 /* SVPulsingAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DF1DEF1990761600AA5A53 /* SVPulsingAnnotationView.m */; };
+		40DF1DF319907B4200AA5A53 /* MKMapView+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DF1DF219907B4200AA5A53 /* MKMapView+Location.m */; };
+		40F22E35198B1DE700180206 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F22E34198B1DE700180206 /* MapKit.framework */; };
+		40F22E4A198B5EC400180206 /* RTCLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E47198B5EC400180206 /* RTCLocationViewController.m */; };
+		40F22E4B198B5EC400180206 /* RTCScrollViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E49198B5EC400180206 /* RTCScrollViewContainer.m */; };
+		40F22E51198B5F4300180206 /* RTCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E50198B5F4300180206 /* RTCConstants.m */; };
+		40F22E54198B5F8600180206 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E53198B5F8600180206 /* CoreDataTableViewController.m */; };
+		40F22E57198B614000180206 /* Retrac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E55198B614000180206 /* Retrac.xcdatamodeld */; };
+		40F22E5A198B647600180206 /* RTCPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E59198B647600180206 /* RTCPlace.m */; };
+		40F22E60198B6B0E00180206 /* RTCModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E5F198B6B0E00180206 /* RTCModelManager.m */; };
+		40F22E63198B74FC00180206 /* RTCPlace+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F22E62198B74FC00180206 /* RTCPlace+Location.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405D3342198A15A600357418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405D3314198A15A600357418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405D331B198A15A600357418;
+			remoteInfo = Retrac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		403B5E4A198D59B200754EC1 /* RTCPlaceDirectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPlaceDirectionsViewController.h; sourceTree = "<group>"; };
+		403B5E4B198D59B200754EC1 /* RTCPlaceDirectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCPlaceDirectionsViewController.m; sourceTree = "<group>"; };
+		403B5E4D198D6C3700754EC1 /* RTCRouteStepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCRouteStepTableViewCell.h; sourceTree = "<group>"; };
+		403B5E4E198D6C3700754EC1 /* RTCRouteStepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCRouteStepTableViewCell.m; sourceTree = "<group>"; };
+		405D331C198A15A600357418 /* Retrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D331F198A15A600357418 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		405D3321198A15A600357418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		405D3323198A15A600357418 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		405D3327198A15A600357418 /* Retrac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrac-Info.plist"; sourceTree = "<group>"; };
+		405D3329198A15A600357418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		405D332B198A15A600357418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		405D332D198A15A600357418 /* Retrac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrac-Prefix.pch"; sourceTree = "<group>"; };
+		405D332E198A15A600357418 /* RTCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTCAppDelegate.h; sourceTree = "<group>"; };
+		405D332F198A15A600357418 /* RTCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTCAppDelegate.m; sourceTree = "<group>"; };
+		405D3332198A15A600357418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		405D3337198A15A600357418 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		405D333D198A15A600357418 /* RetracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		405D333E198A15A600357418 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		405D3346198A15A600357418 /* RetracTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RetracTests-Info.plist"; sourceTree = "<group>"; };
+		405D3348198A15A600357418 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		405D334A198A15A600357418 /* RetracTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetracTests.m; sourceTree = "<group>"; };
+		406E7293198C926F00629B59 /* RTCPlacesCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPlacesCDTVC.h; sourceTree = "<group>"; };
+		406E7294198C926F00629B59 /* RTCPlacesCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCPlacesCDTVC.m; sourceTree = "<group>"; };
+		406E7296198C92D400629B59 /* RTCAddPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAddPlaceViewController.h; sourceTree = "<group>"; };
+		406E7297198C92D400629B59 /* RTCAddPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCAddPlaceViewController.m; sourceTree = "<group>"; };
+		406E7299198CA32B00629B59 /* RTCPlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPlaceTableViewCell.h; sourceTree = "<group>"; };
+		406E729A198CA32B00629B59 /* RTCPlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCPlaceTableViewCell.m; sourceTree = "<group>"; };
+		407C061D198D9F7800A47E37 /* RTCPlace+MKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCPlace+MKAnnotation.h"; sourceTree = "<group>"; };
+		407C061E198D9F7800A47E37 /* RTCPlace+MKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCPlace+MKAnnotation.m"; sourceTree = "<group>"; };
+		407C0628198DBBEF00A47E37 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		407C062A198DBBFA00A47E37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		407C0633198DCA8200A47E37 /* 1540 Maurice Lane, San Jose.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "1540 Maurice Lane, San Jose.gpx"; sourceTree = "<group>"; };
+		407C0634198DCA8200A47E37 /* Valley Fair Mall, San Jose.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Valley Fair Mall, San Jose.gpx"; sourceTree = "<group>"; };
+		407C0637198DF53D00A47E37 /* Cinemark Shoreline, Mountain View, CA.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Cinemark Shoreline, Mountain View, CA.gpx"; sourceTree = "<group>"; };
+		407C063D198DFEB800A47E37 /* RTCPlaceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPlaceDetailsViewController.h; sourceTree = "<group>"; };
+		407C063E198DFEB800A47E37 /* RTCPlaceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCPlaceDetailsViewController.m; sourceTree = "<group>"; };
+		4088BD4E198EA68F003C5A7A /* RTCLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCLocationManager.h; sourceTree = "<group>"; };
+		4088BD4F198EA68F003C5A7A /* RTCLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCLocationManager.m; sourceTree = "<group>"; };
+		40D31467198E155B00A48C8F /* RTCAboutTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAboutTVC.h; sourceTree = "<group>"; };
+		40D31468198E155B00A48C8F /* RTCAboutTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCAboutTVC.m; sourceTree = "<group>"; };
+		40D3146A198E189A00A48C8F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		40DF1DEA1990709200AA5A53 /* RTCUserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCUserLocationViewController.h; sourceTree = "<group>"; };
+		40DF1DEB1990709200AA5A53 /* RTCUserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCUserLocationViewController.m; sourceTree = "<group>"; };
+		40DF1DEE1990761600AA5A53 /* SVPulsingAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPulsingAnnotationView.h; sourceTree = "<group>"; };
+		40DF1DEF1990761600AA5A53 /* SVPulsingAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPulsingAnnotationView.m; sourceTree = "<group>"; };
+		40DF1DF119907B4200AA5A53 /* MKMapView+Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+Location.h"; sourceTree = "<group>"; };
+		40DF1DF219907B4200AA5A53 /* MKMapView+Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+Location.m"; sourceTree = "<group>"; };
+		40F22E34198B1DE700180206 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		40F22E46198B5EC400180206 /* RTCLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCLocationViewController.h; sourceTree = "<group>"; };
+		40F22E47198B5EC400180206 /* RTCLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCLocationViewController.m; sourceTree = "<group>"; };
+		40F22E48198B5EC400180206 /* RTCScrollViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCScrollViewContainer.h; sourceTree = "<group>"; };
+		40F22E49198B5EC400180206 /* RTCScrollViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCScrollViewContainer.m; sourceTree = "<group>"; };
+		40F22E4F198B5F4300180206 /* RTCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCConstants.h; sourceTree = "<group>"; };
+		40F22E50198B5F4300180206 /* RTCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCConstants.m; sourceTree = "<group>"; };
+		40F22E52198B5F8600180206 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		40F22E53198B5F8600180206 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		40F22E56198B614000180206 /* Retrac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Retrac.xcdatamodel; sourceTree = "<group>"; };
+		40F22E58198B647600180206 /* RTCPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPlace.h; sourceTree = "<group>"; };
+		40F22E59198B647600180206 /* RTCPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCPlace.m; sourceTree = "<group>"; };
+		40F22E5E198B6B0E00180206 /* RTCModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCModelManager.h; sourceTree = "<group>"; };
+		40F22E5F198B6B0E00180206 /* RTCModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTCModelManager.m; sourceTree = "<group>"; };
+		40F22E61198B74FC00180206 /* RTCPlace+Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCPlace+Location.h"; sourceTree = "<group>"; };
+		40F22E62198B74FC00180206 /* RTCPlace+Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RTCPlace+Location.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405D3319198A15A600357418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D3146B198E189A00A48C8F /* MessageUI.framework in Frameworks */,
+				407C062B198DBBFA00A47E37 /* QuartzCore.framework in Frameworks */,
+				407C0629198DBBEF00A47E37 /* CoreLocation.framework in Frameworks */,
+				405D3322198A15A600357418 /* CoreGraphics.framework in Frameworks */,
+				405D3324198A15A600357418 /* UIKit.framework in Frameworks */,
+				40F22E35198B1DE700180206 /* MapKit.framework in Frameworks */,
+				405D3320198A15A600357418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405D333A198A15A600357418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D333F198A15A600357418 /* XCTest.framework in Frameworks */,
+				405D3341198A15A600357418 /* UIKit.framework in Frameworks */,
+				405D3340198A15A600357418 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405D3313198A15A600357418 = {
+			isa = PBXGroup;
+			children = (
+				405D3325198A15A600357418 /* Retrac */,
+				405D3344198A15A600357418 /* RetracTests */,
+				405D331E198A15A600357418 /* Frameworks */,
+				405D331D198A15A600357418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		405D331D198A15A600357418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405D331C198A15A600357418 /* Retrac.app */,
+				405D333D198A15A600357418 /* RetracTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405D331E198A15A600357418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40D3146A198E189A00A48C8F /* MessageUI.framework */,
+				407C062A198DBBFA00A47E37 /* QuartzCore.framework */,
+				407C0628198DBBEF00A47E37 /* CoreLocation.framework */,
+				40F22E34198B1DE700180206 /* MapKit.framework */,
+				405D331F198A15A600357418 /* Foundation.framework */,
+				405D3321198A15A600357418 /* CoreGraphics.framework */,
+				405D3323198A15A600357418 /* UIKit.framework */,
+				405D333E198A15A600357418 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		405D3325198A15A600357418 /* Retrac */ = {
+			isa = PBXGroup;
+			children = (
+				405D332E198A15A600357418 /* RTCAppDelegate.h */,
+				405D332F198A15A600357418 /* RTCAppDelegate.m */,
+				405D3331198A15A600357418 /* Main.storyboard */,
+				407C0623198DB43D00A47E37 /* Vendor */,
+				405D3354198A296400357418 /* Helpers */,
+				40F22E37198B348500180206 /* CoreData */,
+				40F22E39198B34A900180206 /* View */,
+				40F22E36198B347400180206 /* Controller */,
+				405D3337198A15A600357418 /* Images.xcassets */,
+				405D3326198A15A600357418 /* Supporting Files */,
+			);
+			path = Retrac;
+			sourceTree = "<group>";
+		};
+		405D3326198A15A600357418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				405D3327198A15A600357418 /* Retrac-Info.plist */,
+				405D3328198A15A600357418 /* InfoPlist.strings */,
+				405D332B198A15A600357418 /* main.m */,
+				405D332D198A15A600357418 /* Retrac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		405D3344198A15A600357418 /* RetracTests */ = {
+			isa = PBXGroup;
+			children = (
+				405D334A198A15A600357418 /* RetracTests.m */,
+				405D3345198A15A600357418 /* Supporting Files */,
+			);
+			path = RetracTests;
+			sourceTree = "<group>";
+		};
+		405D3345198A15A600357418 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				407C0632198DCA8200A47E37 /* gpx */,
+				405D3346198A15A600357418 /* RetracTests-Info.plist */,
+				405D3347198A15A600357418 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		405D3354198A296400357418 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40F22E4F198B5F4300180206 /* RTCConstants.h */,
+				40F22E50198B5F4300180206 /* RTCConstants.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		407C0623198DB43D00A47E37 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				40DF1DED1990761600AA5A53 /* SVPulsingAnnotationView */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		407C0632198DCA8200A47E37 /* gpx */ = {
+			isa = PBXGroup;
+			children = (
+				407C0637198DF53D00A47E37 /* Cinemark Shoreline, Mountain View, CA.gpx */,
+				407C0633198DCA8200A47E37 /* 1540 Maurice Lane, San Jose.gpx */,
+				407C0634198DCA8200A47E37 /* Valley Fair Mall, San Jose.gpx */,
+			);
+			path = gpx;
+			sourceTree = "<group>";
+		};
+		40DF1DED1990761600AA5A53 /* SVPulsingAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				40DF1DEE1990761600AA5A53 /* SVPulsingAnnotationView.h */,
+				40DF1DEF1990761600AA5A53 /* SVPulsingAnnotationView.m */,
+			);
+			name = SVPulsingAnnotationView;
+			path = ../../../ioslibs/SVPulsingAnnotationView/SVPulsingAnnotationView;
+			sourceTree = "<group>";
+		};
+		40F22E36198B347400180206 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4088BD4E198EA68F003C5A7A /* RTCLocationManager.h */,
+				4088BD4F198EA68F003C5A7A /* RTCLocationManager.m */,
+				40F22E52198B5F8600180206 /* CoreDataTableViewController.h */,
+				40F22E53198B5F8600180206 /* CoreDataTableViewController.m */,
+				406E7293198C926F00629B59 /* RTCPlacesCDTVC.h */,
+				406E7294198C926F00629B59 /* RTCPlacesCDTVC.m */,
+				40F22E48198B5EC400180206 /* RTCScrollViewContainer.h */,
+				40F22E49198B5EC400180206 /* RTCScrollViewContainer.m */,
+				40F22E46198B5EC400180206 /* RTCLocationViewController.h */,
+				40F22E47198B5EC400180206 /* RTCLocationViewController.m */,
+				40DF1DEA1990709200AA5A53 /* RTCUserLocationViewController.h */,
+				40DF1DEB1990709200AA5A53 /* RTCUserLocationViewController.m */,
+				406E7296198C92D400629B59 /* RTCAddPlaceViewController.h */,
+				406E7297198C92D400629B59 /* RTCAddPlaceViewController.m */,
+				403B5E4A198D59B200754EC1 /* RTCPlaceDirectionsViewController.h */,
+				403B5E4B198D59B200754EC1 /* RTCPlaceDirectionsViewController.m */,
+				407C063D198DFEB800A47E37 /* RTCPlaceDetailsViewController.h */,
+				407C063E198DFEB800A47E37 /* RTCPlaceDetailsViewController.m */,
+				40D31467198E155B00A48C8F /* RTCAboutTVC.h */,
+				40D31468198E155B00A48C8F /* RTCAboutTVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40F22E37198B348500180206 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				40F22E55198B614000180206 /* Retrac.xcdatamodeld */,
+				40F22E58198B647600180206 /* RTCPlace.h */,
+				40F22E59198B647600180206 /* RTCPlace.m */,
+				40F22E61198B74FC00180206 /* RTCPlace+Location.h */,
+				40F22E62198B74FC00180206 /* RTCPlace+Location.m */,
+				407C061D198D9F7800A47E37 /* RTCPlace+MKAnnotation.h */,
+				407C061E198D9F7800A47E37 /* RTCPlace+MKAnnotation.m */,
+				40F22E5E198B6B0E00180206 /* RTCModelManager.h */,
+				40F22E5F198B6B0E00180206 /* RTCModelManager.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		40F22E39198B34A900180206 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				406E7299198CA32B00629B59 /* RTCPlaceTableViewCell.h */,
+				406E729A198CA32B00629B59 /* RTCPlaceTableViewCell.m */,
+				403B5E4D198D6C3700754EC1 /* RTCRouteStepTableViewCell.h */,
+				403B5E4E198D6C3700754EC1 /* RTCRouteStepTableViewCell.m */,
+				40DF1DF119907B4200AA5A53 /* MKMapView+Location.h */,
+				40DF1DF219907B4200AA5A53 /* MKMapView+Location.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405D331B198A15A600357418 /* Retrac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405D334E198A15A600357418 /* Build configuration list for PBXNativeTarget "Retrac" */;
+			buildPhases = (
+				405D3318198A15A600357418 /* Sources */,
+				405D3319198A15A600357418 /* Frameworks */,
+				405D331A198A15A600357418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Retrac;
+			productName = Retrac;
+			productReference = 405D331C198A15A600357418 /* Retrac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405D333C198A15A600357418 /* RetracTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405D3351198A15A600357418 /* Build configuration list for PBXNativeTarget "RetracTests" */;
+			buildPhases = (
+				405D3339198A15A600357418 /* Sources */,
+				405D333A198A15A600357418 /* Frameworks */,
+				405D333B198A15A600357418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405D3343198A15A600357418 /* PBXTargetDependency */,
+			);
+			name = RetracTests;
+			productName = RetracTests;
+			productReference = 405D333D198A15A600357418 /* RetracTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405D3314198A15A600357418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RTC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nnoduka Eruchalu";
+				TargetAttributes = {
+					405D331B198A15A600357418 = {
+						DevelopmentTeam = HX8CT7J758;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					405D333C198A15A600357418 = {
+						TestTargetID = 405D331B198A15A600357418;
+					};
+				};
+			};
+			buildConfigurationList = 405D3317198A15A600357418 /* Build configuration list for PBXProject "Retrac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405D3313198A15A600357418;
+			productRefGroup = 405D331D198A15A600357418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405D331B198A15A600357418 /* Retrac */,
+				405D333C198A15A600357418 /* RetracTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405D331A198A15A600357418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D3338198A15A600357418 /* Images.xcassets in Resources */,
+				405D332A198A15A600357418 /* InfoPlist.strings in Resources */,
+				405D3333198A15A600357418 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405D333B198A15A600357418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D3349198A15A600357418 /* InfoPlist.strings in Resources */,
+				407C0636198DCA8200A47E37 /* Valley Fair Mall, San Jose.gpx in Resources */,
+				407C0635198DCA8200A47E37 /* 1540 Maurice Lane, San Jose.gpx in Resources */,
+				407C0638198DF53D00A47E37 /* Cinemark Shoreline, Mountain View, CA.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405D3318198A15A600357418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F22E51198B5F4300180206 /* RTCConstants.m in Sources */,
+				40DF1DF01990761600AA5A53 /* SVPulsingAnnotationView.m in Sources */,
+				40F22E54198B5F8600180206 /* CoreDataTableViewController.m in Sources */,
+				40F22E4A198B5EC400180206 /* RTCLocationViewController.m in Sources */,
+				406E7295198C926F00629B59 /* RTCPlacesCDTVC.m in Sources */,
+				403B5E4F198D6C3700754EC1 /* RTCRouteStepTableViewCell.m in Sources */,
+				406E7298198C92D400629B59 /* RTCAddPlaceViewController.m in Sources */,
+				40F22E60198B6B0E00180206 /* RTCModelManager.m in Sources */,
+				40DF1DF319907B4200AA5A53 /* MKMapView+Location.m in Sources */,
+				403B5E4C198D59B200754EC1 /* RTCPlaceDirectionsViewController.m in Sources */,
+				407C061F198D9F7800A47E37 /* RTCPlace+MKAnnotation.m in Sources */,
+				40F22E57198B614000180206 /* Retrac.xcdatamodeld in Sources */,
+				40F22E4B198B5EC400180206 /* RTCScrollViewContainer.m in Sources */,
+				40D31469198E155B00A48C8F /* RTCAboutTVC.m in Sources */,
+				4088BD50198EA68F003C5A7A /* RTCLocationManager.m in Sources */,
+				40F22E63198B74FC00180206 /* RTCPlace+Location.m in Sources */,
+				405D3330198A15A600357418 /* RTCAppDelegate.m in Sources */,
+				407C063F198DFEB800A47E37 /* RTCPlaceDetailsViewController.m in Sources */,
+				40DF1DEC1990709200AA5A53 /* RTCUserLocationViewController.m in Sources */,
+				406E729B198CA32B00629B59 /* RTCPlaceTableViewCell.m in Sources */,
+				405D332C198A15A600357418 /* main.m in Sources */,
+				40F22E5A198B647600180206 /* RTCPlace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405D3339198A15A600357418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405D334B198A15A600357418 /* RetracTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405D3343198A15A600357418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405D331B198A15A600357418 /* Retrac */;
+			targetProxy = 405D3342198A15A600357418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		405D3328198A15A600357418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405D3329198A15A600357418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		405D3331198A15A600357418 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405D3332198A15A600357418 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		405D3347198A15A600357418 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405D3348198A15A600357418 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405D334C198A15A600357418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		405D334D198A15A600357418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405D334F198A15A600357418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrac/Retrac-Prefix.pch";
+				INFOPLIST_FILE = "Retrac/Retrac-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		405D3350198A15A600357418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrac/Retrac-Prefix.pch";
+				INFOPLIST_FILE = "Retrac/Retrac-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "67A5C75D-7AF8-41CD-877B-0901A138AC80";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		405D3352198A15A600357418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Retrac.app/Retrac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrac/Retrac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RetracTests/RetracTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		405D3353198A15A600357418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Retrac.app/Retrac";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrac/Retrac-Prefix.pch";
+				INFOPLIST_FILE = "RetracTests/RetracTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405D3317198A15A600357418 /* Build configuration list for PBXProject "Retrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405D334C198A15A600357418 /* Debug */,
+				405D334D198A15A600357418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405D334E198A15A600357418 /* Build configuration list for PBXNativeTarget "Retrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405D334F198A15A600357418 /* Debug */,
+				405D3350198A15A600357418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405D3351198A15A600357418 /* Build configuration list for PBXNativeTarget "RetracTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405D3352198A15A600357418 /* Debug */,
+				405D3353198A15A600357418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40F22E55198B614000180206 /* Retrac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40F22E56198B614000180206 /* Retrac.xcdatamodel */,
+			);
+			currentVersion = 40F22E56198B614000180206 /* Retrac.xcdatamodel */;
+			path = Retrac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 405D3314198A15A600357418 /* Project object */;
+}
